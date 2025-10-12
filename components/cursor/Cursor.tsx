@@ -10,7 +10,6 @@ type Props = {
 
 
 
-
 const Cursor = ({ color, x, y, message }: Props) => (
   <div
     className='pointer-events-none absolute left-0 top-0'
