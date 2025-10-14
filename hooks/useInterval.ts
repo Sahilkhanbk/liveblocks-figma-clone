@@ -11,7 +11,6 @@ export default function useInterval(callback: () => void, delay: number) {
   }, [callback]);
 
 
-
   
 
   // Set up the interval.
