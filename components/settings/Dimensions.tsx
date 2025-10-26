@@ -10,7 +10,6 @@ const dimensionsOptions = [
 
 
 
-
 type Props = {
   width: string;
   height: string;
