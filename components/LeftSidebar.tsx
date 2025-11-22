@@ -10,7 +10,6 @@ import { getShapeInfo } from "@/lib/utils";
 
 
 
-
 const LeftSidebar = ({ allShapes }: { allShapes: Array<any> }) => {
   // memoize the result of this function so that it doesn't change on every render but only when there are new shapes
   const memoizedShapes = useMemo(
