@@ -10,7 +10,6 @@
   margin-left: -0.75rem;
 }
 
-
 .avatar:before {
   content: attr(data-tooltip);
   position: absolute;
