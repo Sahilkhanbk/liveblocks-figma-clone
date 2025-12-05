@@ -5,7 +5,6 @@ const client = createClient({
   throttle: 16,
   publicApiKey: process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY!,
 
-  // ✅ Moved here
   async resolveUsers({ userIds }) {
     // Fetch user info from your DB if needed
     return userIds.map((id) => ({
