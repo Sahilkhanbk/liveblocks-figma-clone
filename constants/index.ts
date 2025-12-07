@@ -8,7 +8,6 @@ export const shapeElements = [
   },
 
 
-
   
   {
     icon: "/assets/circle.svg",
